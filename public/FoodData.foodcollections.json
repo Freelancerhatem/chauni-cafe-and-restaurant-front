@@ -1,0 +1,495 @@
+[{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244424"
+  },
+  "id": 1,
+  "name": "Spaghetti Bolognese",
+  "image": "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2021/06/THUMB-LINK-2020-2-1200x675.jpg",
+  "category": "Pasta",
+  "price": 12.99,
+  "quantity": 15,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244426"
+  },
+  "id": 3,
+  "name": "Margherita Pizza",
+  "image": "https://static.toiimg.com/thumb/56868564.cms?width=1200&height=900",
+  "category": "Pizza",
+  "price": 10.99,
+  "quantity": 30,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424442c"
+  },
+  "id": 9,
+  "name": "Tiramisu",
+  "image": "https://www.culinaryhill.com/wp-content/uploads/2021/01/Tiramisu-Culinary-Hill-1200x800-1.jpg",
+  "category": "Dessert",
+  "price": 5.99,
+  "quantity": 20,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244431"
+  },
+  "id": 14,
+  "name": "Shrimp Scampi",
+  "image": "https://www.allrecipes.com/thmb/jiV_4f8vXFle1RdFLgd8-_31J3M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/229960-shrimp-scampi-with-pasta-DDMFS-4x3-e065ddef4e6d44479d37b4523808cc23.jpg",
+  "category": "Seafood",
+  "price": 16.99,
+  "quantity": 24,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424442e"
+  },
+  "id": 11,
+  "name": "Sushi Combo",
+  "image": "https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/emitwbsv/51faec3c-4435-4dbc-9d6e-59aef6de245d.jpg",
+  "category": "Sushi",
+  "price": 18.99,
+  "quantity": 13,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424442b"
+  },
+  "id": 8,
+  "name": "Classic Cheeseburger",
+  "image": "https://leitesculinaria.com/wp-content/uploads/2013/01/classic-cheesburger-fp.jpg",
+  "category": "Burger",
+  "price": 6.99,
+  "quantity": 24,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244425"
+  },
+  "id": 2,
+  "name": "Chicken Alfredo",
+  "image": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-bowl.jpg",
+  "category": "Pasta",
+  "price": 14.99,
+  "quantity": 20,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424442f"
+  },
+  "id": 12,
+  "name": "Teriyaki Chicken",
+  "image": "https://www.budgetbytes.com/wp-content/uploads/2022/04/Teriyaki-Chicken-plate-500x375.jpg",
+  "category": "Sushi",
+  "price": 15.99,
+  "quantity": 0,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244432"
+  },
+  "id": 15,
+  "name": "Salmon with Asparagus",
+  "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/08/19/KC3111-geoffrey-zakarian-salmon-with-maitre-dhotel-butter-in-the-microwave-with-asparagus_4x3.jpg.rend.hgtvcom.1280.960.suffix/1660928175261.jpeg",
+  "category": "Seafood",
+  "price": 17.99,
+  "quantity": 17,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244433"
+  },
+  "id": 16,
+  "name": "Beef Tacos",
+  "image": "https://www.marthastewart.com/thmb/TqdvJ-yZ_VA9I86P7VXA1sOY6O0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/msledf_1003_beeftaco_horiz-892fe13aeba549d99495e27abc1d68f7.jpgitokb2Re7eO8",
+  "category": "Mexican",
+  "price": 9.99,
+  "quantity": 12,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244437"
+  },
+  "id": 20,
+  "name": "Mango Smoothie",
+  "image": "https://www.thespruceeats.com/thmb/Vm6k98eAib9lfNPUc-IR3kPOxMg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fresh-mango-smoothie-with-yogurt-3051561-hero-01-619be016801b4eb2ab816d87ca19b09f.jpg",
+  "category": "Beverage",
+  "price": 4.49,
+  "quantity": 24,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244438"
+  },
+  "id": 21,
+  "name": "French Fries",
+  "image": "https://www.thespruceeats.com/thmb/X_JGM04VusvkuGqTVan4QmBRqjI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-homemade-french-fries-2215971-hero-01-02f62a016f3e4aa4b41d0c27539885c3.jpg",
+  "category": "Side Dish",
+  "price": 3.49,
+  "quantity": 17,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244439"
+  },
+  "id": 22,
+  "name": "Onion Rings",
+  "image": "https://cdn-anmik.nitrocdn.com/kQDttHBvkmdpAiIYLaxVOothBahVPiXD/assets/images/optimized/rev-e2373e6/recipefairy.com/wp-content/uploads/2020/01/onion-rings-burger-king-1600x1060.png",
+  "category": "Side Dish",
+  "price": 4.99,
+  "quantity": 36,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244430"
+  },
+  "id": 13,
+  "name": "Vegetable Stir-Fry",
+  "image": "https://buildyourbite.com/wp-content/uploads/2018/06/Vegetable-Stir-Fry-featured-720x540.jpg",
+  "category": "Stir-Fry",
+  "price": 10.99,
+  "quantity": 32,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244443"
+  },
+  "id": 32,
+  "name": "Vanilla Ice Cream",
+  "image": "https://static.toiimg.com/thumb/63971154.cms?width=573&height=430",
+  "category": "Dessert",
+  "price": 3.99,
+  "quantity": 30,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244444"
+  },
+  "id": 33,
+  "name": "Cheesecake",
+  "image": "https://www.marthastewart.com/thmb/3jcvhpkydxP94H_vRXWoIep-De4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-313705-classic-cheesecake-hero-horiz-0723-e3906c2723d94cbd8e3f582ac1040ea0.jpg",
+  "category": "Dessert",
+  "price": 7.99,
+  "quantity": 20,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244449"
+  },
+  "id": 38,
+  "name": "Garlic Shrimp",
+  "image": "https://shewearsmanyhats.com/wp-content/uploads/2015/10/garlic-shrimp-recipe-1b.jpg",
+  "category": "Seafood",
+  "price": 14.99,
+  "quantity": 30,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424442d"
+  },
+  "id": 10,
+  "name": "Chocolate Cake",
+  "image": "https://publish-p50513-e440257.adobeaemcloud.com/content/dam/hersheyland/en-us/recipes/recipe-images/2_Hersheys_Perfectly_Chocolate_Cake_11-18.jpeg",
+  "category": "Dessert",
+  "price": 6.99,
+  "quantity": 22,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424443f"
+  },
+  "id": 28,
+  "name": "Baked Ziti",
+  "image": "https://www.allrecipes.com/thmb/oXuLKPsb-Wa_LolmP3JpVl7q2ow=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/18031-baked-ziti-ii-DDMFS-4x3-45e614088a504a67b9a9dde7001be4ee.jpg",
+  "category": "Italian",
+  "price": 11.99,
+  "quantity": 30,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244442"
+  },
+  "id": 31,
+  "name": "Chocolate Milkshake",
+  "image": "https://www.thespruceeats.com/thmb/qB63P8d50_HR5JMhdbwGvcFgKjE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chocolate-milkshake-4587581-hero-1-22c8a039103c413dafd75f4f4c39ddd4.JPG",
+  "category": "Beverage",
+  "price": 5.99,
+  "quantity": 20,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244447"
+  },
+  "id": 36,
+  "name": "Mediterranean Salad",
+  "image": "https://img.taste.com.au/f3JKXDPQ/w720-h480-cfill-q80/taste/2021/12/mediterranean-chickpea-salad-175726-1.jpg",
+  "category": "Salad",
+  "price": 9.99,
+  "quantity": 30,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424442a"
+  },
+  "id": 7,
+  "name": "Grilled Chicken Burger",
+  "image": "https://playswellwithbutter.com/wp-content/uploads/2022/06/Best-Ever-Grilled-Chicken-Burgers-18.jpg",
+  "category": "Burger",
+  "price": 7.99,
+  "quantity": 20,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244434"
+  },
+  "id": 17,
+  "name": "Vegetarian Burrito",
+  "image": "https://assets.epicurious.com/photos/57978b27c9298e54495917d5/master/pass/black-bean-and-vegetable-burritos.jpg",
+  "category": "Mexican",
+  "price": 8.99,
+  "quantity": 73,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424443d"
+  },
+  "id": 26,
+  "name": "Pho Noodle Soup",
+  "image": "https://www.inspiredtaste.net/wp-content/uploads/2016/06/Vietnamese-Pho-Soup-Recipe-1.jpg",
+  "category": "Soup",
+  "price": 9.99,
+  "quantity": 40,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424443a"
+  },
+  "id": 23,
+  "name": "BBQ Ribs",
+  "image": "https://hips.hearstapps.com/hmg-prod/images/whole-rib-rack1-1649876280.jpg?crop=1xw:0.8433774834437087xh;center,top",
+  "category": "Main Course",
+  "price": 16.99,
+  "quantity": 70,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244440"
+  },
+  "id": 29,
+  "name": "Garlic Bread",
+  "image": "https://i0.wp.com/passmeaspoon.com/wp-content/uploads/2023/03/Hot-Dog-Garlic-Bread-17-of-17.jpg?fit=1200%2C800&ssl=1",
+  "category": "Italian",
+  "price": 4.99,
+  "quantity": 30,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244441"
+  },
+  "id": 30,
+  "name": "Cheese Ravioli",
+  "image": "https://www.thespruceeats.com/thmb/cQa0FNkB4Ez9BliLKbLmxWkoyjY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/recipe-for-three-cheese-ravioli-909235-hero-5c3800ca46e0fb000133eed7.jpg",
+  "category": "Italian",
+  "price": 12.99,
+  "quantity": 30,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244446"
+  },
+  "id": 35,
+  "name": "Hot Dog",
+  "image": "https://www.seriouseats.com/thmb/QJZXQHDXBfTiUSKstQ1uskJc31g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SEA-best-grilled-hot-dogs-recipe-hero-02-9d245c0d43874a3da13a7228682b0dce.jpg",
+  "category": "Burger",
+  "price": 3.99,
+  "quantity": 30,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244429"
+  },
+  "id": 6,
+  "name": "Greek Salad",
+  "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/08/Greek-Salad-main.jpg",
+  "category": "Salad",
+  "price": 9.99,
+  "quantity": 13,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244427"
+  },
+  "id": 4,
+  "name": "Pepperoni Pizza",
+  "image": "https://www.simplyrecipes.com/thmb/pjYMLcsKHkr8D8tYixmaFNxppPw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-3-8f256746d649404baa36a44d271329bc.jpg",
+  "category": "Pizza",
+  "price": 11.99,
+  "quantity": 22,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244435"
+  },
+  "id": 18,
+  "name": "Lemonade",
+  "image": "https://www.simplyrecipes.com/thmb/4LFrc9hSMoKErr2WI7tThcnvWwA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Perfect-Lemonade-LEAD-08-B-441ceb568f854bb485dbed79e082bb4a.jpg",
+  "category": "Beverage",
+  "price": 2.99,
+  "quantity": 100,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244436"
+  },
+  "id": 19,
+  "name": "Iced Tea",
+  "image": "https://images.immediate.co.uk/production/volatile/sites/2/2023/03/Peach-iced-tea-197aa60.jpg?resize=768,574",
+  "category": "Beverage",
+  "price": 2.49,
+  "quantity": 32,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424443b"
+  },
+  "id": 24,
+  "name": "Grilled Salmon",
+  "image": "https://hips.hearstapps.com/hmg-prod/images/how-to-grill-salmon-recipe1-1655870645.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*",
+  "category": "Main Course",
+  "price": 15.99,
+  "quantity": 40,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424443c"
+  },
+  "id": 25,
+  "name": "Vegetable Lasagna",
+  "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2022/VegetableLasagna_17.jpg?w=960&h=720&q=82&fm=jpg&fit=crop&dm=1669251492&s=97bb757fab3dd30ef308428fceb6ae95",
+  "category": "Main Course",
+  "price": 13.99,
+  "quantity": 40,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424443e"
+  },
+  "id": 27,
+  "name": "Chicken Noodle Soup",
+  "image": "https://hips.hearstapps.com/hmg-prod/images/chicken-noodle-soup-index-644c2bec1ce0c.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+  "category": "Soup",
+  "price": 8.99,
+  "quantity": 30,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424444a"
+  },
+  "id": 39,
+  "name": "Ratatouille",
+  "image": "https://foodhub.scene7.com/is/image/woolworthsltdprod/fi-2306-ratatouille:Desktop-1300x658",
+  "category": "French",
+  "price": 11.99,
+  "quantity": 40,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244428"
+  },
+  "id": 5,
+  "name": "Caesar Salad",
+  "image": "https://www.seriouseats.com/thmb/Fi_FEyVa3_-_uzfXh6OdLrzal2M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-best-caesar-salad-recipe-06-40e70f549ba2489db09355abd62f79a9.jpg",
+  "category": "Salad",
+  "price": 8.99,
+  "quantity": 12,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244445"
+  },
+  "id": 34,
+  "name": "Hamburger",
+  "image": "https://www.inspiredtaste.net/wp-content/uploads/2023/06/Easy-Hamburger-Recipe-Video.jpg",
+  "category": "Burger",
+  "price": 5.99,
+  "quantity": 30,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa504244448"
+  },
+  "id": 37,
+  "name": "Lobster Bisque",
+  "image": "https://www.allrecipes.com/thmb/RyyLV4jtk70xjt6l8HtRMn8CeuU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/76637-perfect-lobster-bisque-ddmfs-4X3-5729-931d38c33a7f41359a003ff417b0904a.jpg",
+  "category": "Soup",
+  "price": 12.99,
+  "quantity": 40,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "6547a5a9a52d4aa50424444b"
+  },
+  "id": 40,
+  "name": "Linguine Carbonara",
+  "image": "https://recipes.net/wp-content/uploads/2022/05/Easy-Linguine-Carbonara-Recipe.jpg",
+  "category": "Italian",
+  "price": 13.99,
+  "quantity": 50,
+  "count":0
+},
+{
+  "_id": {
+    "$oid": "654a87d3771c9744a2ccde95"
+  },
+  "name": "Md Hatem",
+  "image": "https://shorturl.at/cnqu8",
+  "category": "Side Dish",
+  "price": "12",
+  "quantity": "12",
+  "userName": "Md Hatem",
+  "userEmail": "hatem2@gmail.com",
+  "description": "Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.",
+  "origin": "Mexican",
+  "count":0
+}]
