@@ -1,6 +1,27 @@
 import { BsHeartArrow } from "react-icons/bs";
 import banner from '../../assets/images/cafe-mozaic.jpg'
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+import Swal from "sweetalert2";
 const Reservation = () => {
+    const form = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_5sx7ybg', 'template_fjjf6na', e.target, 'uvSy1pe9ap-JM7kRS')
+          .then((result) => {
+              console.log(result.text);
+              Swal.fire({
+                title: "Success!",
+                text: "Message Sent successfully!",
+                icon: "success"
+              });
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset();
+      };
+
     return (
         <div>
             <div className="relative mt-12">
@@ -35,7 +56,7 @@ const Reservation = () => {
                                     <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
                                         Reserve A Table
                                     </h3>
-                                    <form>
+                                    <form ref={form} onSubmit={sendEmail}>
                                         <div className="mb-1 sm:mb-2">
                                             <label
                                                 htmlFor="full name"
@@ -49,7 +70,7 @@ const Reservation = () => {
                                                 type="text"
                                                 className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
                                                 id="name"
-                                                name="name"
+                                                name="Fname"
                                             />
                                         </div>
                                         <div className="mb-1 sm:mb-2">
@@ -81,7 +102,7 @@ const Reservation = () => {
                                                 type="tel"
                                                 className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
                                                 id="phone"
-                                                name="phone"
+                                                name="number"
                                             />
                                         </div>
                                         <div className="mb-1 sm:mb-2">
@@ -102,7 +123,7 @@ const Reservation = () => {
                                         </div>
                                         <div className="mt-4 mb-2 sm:mb-4">
                                             <button
-                                                
+                                                type="submit"
                                                 className="inline-flex bg-orange-400 items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                             >
                                                 Reserve Now
