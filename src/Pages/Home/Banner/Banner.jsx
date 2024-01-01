@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import chef from '../../../assets/images/chef.jpg'
+import chef from '../../../assets/images/chef.png'
 import './Banner.css'
 
 const Banner = () => {

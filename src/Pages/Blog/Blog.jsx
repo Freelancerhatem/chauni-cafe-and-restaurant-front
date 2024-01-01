@@ -10,7 +10,7 @@ const Blog = () => {
                 <title>Blogs</title>
 
             </Helmet>
-            <div className='max-w-screen px-14 min-h-screen'>
+            <div className='max-w-screen px-14 pt-20 min-h-screen'>
                 <h1 className='text-3xl mt-6 text-orange-400 font-bold text-center px-14'>Blogs</h1>
                 <div>
                     <span>

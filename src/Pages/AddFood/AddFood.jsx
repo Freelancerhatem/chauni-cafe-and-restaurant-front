@@ -52,8 +52,7 @@ const AddFood = () => {
     }
 
     return (
-        <div >
-
+        <div>
             <div className="grid grid-cols-2">
             <Helmet>
                 <meta charSet="utf-8" />

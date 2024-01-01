@@ -61,7 +61,7 @@ const Navbar = () => {
 
   }
   return (
-    <div className={`${isScroll?'bg-black bg-opacity-30 backdrop-blur-md':'bg-black bg-opacity-10'} transition duration-200 ease-in-out w-screen fixed z-30 grid md:grid-cols-3 grid-cols-3 lg:px-14 md:px-3`}>
+    <div className={`${isScroll?'bg-black bg-opacity-30 backdrop-blur-md':'bg-black bg-opacity-10'} transition-colors transform duration-200 ease-in-out w-screen fixed z-30 grid md:grid-cols-3 grid-cols-3 lg:px-14 md:px-3`}>
 
 
       {/* navlink start */}

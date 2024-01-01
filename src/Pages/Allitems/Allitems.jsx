@@ -90,7 +90,7 @@ const Allitems = () => {
         )
     }
     return (
-        <div>
+        <div className="pt-20">
 
             <Helmet>
                 <meta charSet="utf-8" />
