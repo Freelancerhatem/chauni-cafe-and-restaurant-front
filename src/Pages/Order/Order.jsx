@@ -93,7 +93,7 @@ const Order = () => {
     }
     if (updateQuantity > 0 && updateCount !== quantity+1 )
         return (
-            <div>
+            <div className="pt-20">
                 <h1 className="text-center text-3xl mt-6 text-orange-400">Purchase Your Food</h1>
                 {/* <button onClick={()=>setUpdateCount(count+1)}>{}</button> */}
                 <div className="max-w-2xl mx-auto bg-white p-16">
@@ -135,7 +135,7 @@ const Order = () => {
         );
     else {
         return(
-            <div className="max-w-screen h-[80vh] flex justify-center items-center">
+            <div className="w-screen h-[80vh] flex justify-center items-center">
                 <h1 className="text-4xl text-orange-400">This Product Is Out Of Stock</h1>
             </div>
         )

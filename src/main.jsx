@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import Layouts from './components/Layouts/Layouts';
 import Home from './Pages/Home/Home';
-import Blog from './Pages/Blog/Blog';
 import Allitems from './Pages/Allitems/Allitems';
 import Profile from './Pages/Profile/Profile';
 import SinglePages from './Pages/SinglePages/SinglePages';
@@ -34,10 +33,7 @@ const router = createBrowserRouter([
         path:'/',
         element:<Home></Home>
       },
-      {
-        path:'blog',
-        element:<Blog></Blog>
-      },
+      
       {
         path:'allitems',
         element:<Allitems></Allitems>,

@@ -3,6 +3,7 @@ import { MdFoodBank, MdOutlineDoubleArrow } from "react-icons/md";
 import TopFoodCard from "./TopFoodCard";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import useAos from "../../Hooks/useAos";
 
 
 const TopFood = () => {
@@ -13,11 +14,12 @@ const TopFood = () => {
             .then(res => res.json())
             .then(data => setFoods(data));
 
-    }, [])
+    }, []);
+    useAos();
     
     return (
 
-        <div className="max-w-screen mt-8">
+        <div name='top' data-aos='fade-up' className="max-w-screen mt-8">
             <div className="flex mt-4 text-3xl uppercase justify-center items-center">
                     <MdFoodBank></MdFoodBank>
                     <h1 className="text-center  md:text-base lg:text-3xl md:font-bold text-orange-400">Top food menu</h1>

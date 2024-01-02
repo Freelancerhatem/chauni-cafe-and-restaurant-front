@@ -5,10 +5,12 @@ import food3 from '../../assets/images/food-3.jpg'
 import food4 from '../../assets/images/food-4.jpg'
 import icon1 from '../../assets/icon/icon-01.png'
 import icon2 from '../../assets/icon/icon-02.png'
+import useAos from "../../Hooks/useAos";
 
 const About = () => {
+    useAos();
     return (
-        <div className="grid lg:grid-cols-2 md:grid-cols-1  md:px-2 lg:px-14 mt-20">
+        <div name='about' data-aos='fade-up' className="grid lg:grid-cols-2 md:grid-cols-1  md:px-2 lg:px-14 mt-20">
             <div className="grid md:grid-cols-2 grid-cols-1  gap-4">
                 <img src={food1} className="h-[340px] rounded-md" alt="" />
                 <img src={food2} className="h-[340px] rounded-md" alt="" />

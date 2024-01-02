@@ -1,9 +1,11 @@
 import { NavLink, Link } from "react-router-dom";
 import logo from '../../assets/images/logo.png';
-import { BsCartCheck, BsFillHeartFill, BsFillPersonFill, BsSearchHeart } from 'react-icons/bs';
+import { BsCartCheck, BsFillPersonFill, } from 'react-icons/bs';
+import { FaShoppingBag } from "react-icons/fa";
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import Swal from "sweetalert2";
+import { Link as ScroolLink } from 'react-scroll';
 
 
 const Navbar = () => {
@@ -61,13 +63,13 @@ const Navbar = () => {
 
   }
   return (
-    <div className={`${isScroll?'bg-black bg-opacity-30 backdrop-blur-md':'bg-black bg-opacity-10'} transition-colors transform duration-200 ease-in-out w-screen fixed z-30 grid md:grid-cols-3 grid-cols-3 lg:px-14 md:px-3`}>
+    <div  className={`${isScroll ? 'bg-black bg-opacity-30 backdrop-blur-md' : 'bg-black bg-opacity-10'} transition-colors transform duration-200 ease-in-out w-screen  fixed z-30 grid md:grid-cols-3 grid-cols-3 lg:px-14 md:px-3`}>
 
 
       {/* navlink start */}
-      <div className="hidden md:flex md:text-[10px] lg:text-base items-center ">
+      <div className="hidden md:flex md:text-[10px]  lg:text-base  ">
 
-        <ul className="flex font-medium  lg:py-4  md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-2 md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <ul className="flex items-center font-medium  lg:py-4  md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-2 md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <NavLink to='/' className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "bg-orange-400 rounded-md " : ""
           }>
@@ -86,15 +88,6 @@ const Navbar = () => {
               <button className="block py-2 pl-1 lg:pl-3 lg:pr-4 text-white  rounded" aria-current="page">All Items</button>
             </li>
           </NavLink>
-          <NavLink to='/blog' className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "bg-orange-400 rounded-md" : ""
-          }>
-            <li>
-
-              <button className={'block py-2 pl-1 lg:pl-3 lg:pr-4 text-white  rounded'} aria-current="page">Blog</button>
-            </li>
-          </NavLink>
-
           <NavLink to='/profile' className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "bg-orange-400 rounded-md" : ""
           }>
@@ -103,6 +96,27 @@ const Navbar = () => {
               <button className={'block py-2 pl-1 lg:pl-3 lg:pr-4 text-white  rounded'} aria-current="page">Profile</button>
             </li>
           </NavLink>
+          <div className=" ">
+            <ul className="menu  menu-horizontal text-white  px-1">
+
+              <li>
+                <details>
+                  <summary className="text-white hover:bg-transparent focus:bg-none  hover:text-white">
+                    Pages
+                  </summary>
+                  <ul className=" bg-base-100 text-black w-44 rounded-t-none">
+                    <li><ScroolLink to="about" className="block py-2 cursor-pointer pl-1 lg:pl-3 lg:pr-4   rounded" smooth={true} duration={500}>About</ScroolLink></li>
+                    <li><ScroolLink to="top" className="block py-2 cursor-pointer pl-1 lg:pl-3 lg:pr-4   rounded" smooth={true} duration={500}>Top Foods</ScroolLink></li>
+                    <li><ScroolLink to="book" className="block py-2 cursor-pointer pl-1 lg:pl-3 lg:pr-4   rounded" smooth={true} duration={500}>Booking</ScroolLink></li>
+                    
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+
+
+
 
         </ul>
       </div>
@@ -115,7 +129,7 @@ const Navbar = () => {
         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
           <Link to={'/'}>Home</Link>
           <Link to={'/allitems'}>All Items</Link>
-          <Link to={'/blog'}>Blog</Link>
+          <Link to={'booking'}>Booking</Link>
           <Link to={'/profile'}>Profile</Link>
         </ul>
       </div>
@@ -128,9 +142,8 @@ const Navbar = () => {
 
       <div className="flex justify-end md:gap-6 ">
         <div className="text-white hidden lg:flex justify-start items-center space-x-4">
-          <BsSearchHeart className="text-white hidden md:block text-2xl"></BsSearchHeart>
-          <BsFillHeartFill className="md:text-2xl text-xs hidden md:block"></BsFillHeartFill>
-          <Link to={'/MyOrders'}><BsCartCheck className="text-2xl"></BsCartCheck></Link>
+
+          <Link to={'/MyOrders'}><FaShoppingBag className="text-2xl"></FaShoppingBag></Link>
 
         </div>
 

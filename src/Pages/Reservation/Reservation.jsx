@@ -23,7 +23,7 @@ const Reservation = () => {
       };
 
     return (
-        <div>
+        <div name="book">
             <div className="relative mt-12">
                 <img
                     src={banner}
